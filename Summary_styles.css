@@ -1,0 +1,39 @@
+.col-1 {width: 70%;}
+.col-2 {width: 45%;}
+.col-3{width:70%;}
+.col-4{width:45%;}
+.col-5{width:70%;}
+.col-6{width:45%;}
+[class*='col-'] { /* This css rule applies to any element that has the string "col-" in its class*/
+    float: left;
+    min-height: 1px;
+    /*-- our gutter inside each cell around it's content, change the value to see how it works--*/
+    padding: 1px;
+
+div.container{padding-top: 5px;}
+
+.row{
+
+
+    border:  black 2px;
+
+
+
+}
+h1{
+
+    text-align:center;
+    display:flex;justify-content:center;align-items:center;
+    font-size: 30px;
+
+    border : solid black;
+    border-width : 1px;
+
+
+
+
+}
+
+[class = 'col-1']{ border: solid black 5px;}
+
+p.A{column-count:9;}
